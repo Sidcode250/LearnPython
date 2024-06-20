@@ -51,10 +51,14 @@ for num in enumerate(word):
     print(num)
 '''
 
+'''
 mylist = "Siddharth"
 
 mylist2 = []
 for letter in mylist:
     mylist2.append(letter)
 print(mylist2)
-    
+'''
+
+mylist = [x*y for x in [1,2,3] for y in [1,10,100]]
+print(mylist)
