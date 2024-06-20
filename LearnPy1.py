@@ -21,8 +21,30 @@ print(n)
 
 #print("Sid")
 
+'''
 mylist = [1,2,3,4,5,6,7,8,9,10]
 for num in mylist:
     if num % 2 == 0:
         print(num)
+'''
 
+#num = 10
+#print(f"I am a {num}")
+
+'''
+mylist = [(1,2,3),(4,5,6),(7,8,9)]
+for (a,b,c) in mylist:
+    print(a+1)
+    print(b+2)
+    print(c+3)
+'''
+
+index_count = 1
+word = "siddharth"
+'''
+for num in word:
+    print("the number for {} is {}".format(num,index_count))
+    index_count += 1
+'''
+for num in enumerate(word):
+    print(num)
