@@ -39,12 +39,22 @@ for (a,b,c) in mylist:
     print(c+3)
 '''
 
+'''
 index_count = 1
 word = "siddharth"
-'''
+
 for num in word:
     print("the number for {} is {}".format(num,index_count))
     index_count += 1
-'''
+
 for num in enumerate(word):
     print(num)
+'''
+
+mylist = "Siddharth"
+
+mylist2 = []
+for letter in mylist:
+    mylist2.append(letter)
+print(mylist2)
+    
