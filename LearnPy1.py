@@ -60,5 +60,8 @@ for letter in mylist:
 print(mylist2)
 '''
 
+'''
 mylist = [x*y for x in [1,2,3] for y in [1,10,100]]
 print(mylist)
+'''
+
