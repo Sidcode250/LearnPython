@@ -50,7 +50,7 @@ even_list([2,5,7,10])
 '''
 
 
-a = [1,2,3,4,5]
+#a = [1,2,3,4,5]
 from random import shuffle
 #shuffle(a)
 #print(a)
@@ -59,5 +59,21 @@ def shuffle_list(my_list):
     shuffle(my_list)
     print(my_list)
 
-game = [' ', '0', ' ']
+game = [' ', 'o', ' ']
 shuffle_list(game)
+
+def guess_a():
+    guess = ''
+    while guess not in ['0','1','2']:
+        guess = input("pick a number: 0,1,2")
+    z1 = int(guess)
+    print(z1)
+guess_a()
+
+'''
+def check(my_list, guess):
+    if my_list(guess) == 'o':
+        print("right")
+    else:
+        print("wrong")
+'''
