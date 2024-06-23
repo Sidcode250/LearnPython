@@ -49,12 +49,12 @@ def even_list(list):
 even_list([2,5,7,10])
 '''
 
-
+'''
 from random import shuffle
 
 def shuffle_list(my_list):
     shuffle(my_list)
-    print(my_list)
+    #print(my_list)
     return my_list
 
 def guess_a():
@@ -73,3 +73,10 @@ game = [' ', 'o', ' ']
 game1 = shuffle_list(game)
 game2 = guess_a()
 check(game1,game2)
+'''
+
+def myfunc(a,b):
+    if a > b:
+        return a
+    else:
+        return b 
