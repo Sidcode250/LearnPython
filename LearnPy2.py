@@ -67,13 +67,11 @@ def guess_a():
     while guess not in ['0','1','2']:
         guess = input("pick a number: 0,1,2")
     z1 = int(guess)
-    print(z1)
+    print("your guess is : ", z1)
 guess_a()
 
-'''
-def check(my_list, guess):
-    if my_list(guess) == 'o':
+def check(my_list, z1):
+    if my_list[z1] == 'o':
         print("right")
     else:
         print("wrong")
-'''
