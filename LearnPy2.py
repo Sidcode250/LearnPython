@@ -37,6 +37,7 @@ def fun2(list):
 fun2([2,4,5,7,9,10])
 '''
 
+'''
 def even_list(list):
     empty_list = []
     for num in list:
@@ -46,3 +47,17 @@ def even_list(list):
             pass
     print(empty_list)
 even_list([2,5,7,10])
+'''
+
+
+a = [1,2,3,4,5]
+from random import shuffle
+#shuffle(a)
+#print(a)
+
+def shuffle_list(my_list):
+    shuffle(my_list)
+    print(my_list)
+
+game = [' ', '0', ' ']
+shuffle_list(game)
