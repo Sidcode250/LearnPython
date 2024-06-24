@@ -22,7 +22,7 @@ def check(a,b):
         pass
 check(1,2)
 '''
-
+'''
 def lesser_of_two_evens(a,b):
     if a%2 == 0 and b%2 ==0:
         print(min(a,b))
@@ -31,3 +31,13 @@ def lesser_of_two_evens(a,b):
         print(max(a,b))
         return max(a,b)
 lesser_of_two_evens(2,5)
+'''
+
+def animal_crackers(text):
+    a1 = text.split()
+    print(a1)
+    if a1[0][0] == a1[1][0]:
+        return True
+    else:
+        return False
+animal_crackers('Levelheaded Llama')

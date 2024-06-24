@@ -88,6 +88,7 @@ def myfunc(*args):
      print([args for args in args if args % 2 == 0])
 '''
 
+'''
 def myfunc(*args):
     mylist = []
     for num in args:
@@ -95,6 +96,7 @@ def myfunc(*args):
             mylist.append(num)
         else:
             pass
-    print(mylist)
+    return mylist
 
 myfunc(2,3,4,5,6)
+'''
