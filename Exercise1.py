@@ -57,5 +57,3 @@ def old_macdonald(name):
     else:
         return 'name is too short'
 '''
-name = "siddharth"
-print(name.upper())
