@@ -33,6 +33,7 @@ def lesser_of_two_evens(a,b):
 lesser_of_two_evens(2,5)
 '''
 
+'''
 def animal_crackers(text):
     a1 = text.split()
     print(a1)
@@ -41,3 +42,20 @@ def animal_crackers(text):
     else:
         return False
 animal_crackers('Levelheaded Llama')
+'''
+'''
+def makes_twenty(a,b):
+    if a + b == 20 or a == 20 or b == 20:
+        return True
+    else:
+        return False
+'''
+'''
+def old_macdonald(name):
+    if name>3:
+        return name[0].capitalize() + name[3].capitalize
+    else:
+        return 'name is too short'
+'''
+name = "siddharth"
+print(name.upper())
