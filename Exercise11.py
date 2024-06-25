@@ -14,7 +14,7 @@ def almost_there(n):
     else:
         return False
 '''
-
+'''
 def paper_doll(text):
     mylist = []
     for i in text:
@@ -22,3 +22,19 @@ def paper_doll(text):
     print("".join(mylist))
     return "".join(mylist)
 paper_doll("hello")
+'''
+'''
+def summer_69(arr):
+    total_sum = 0
+    in_ignore_section = False
+    
+    for num in arr:
+        if num == 6:
+            in_ignore_section = True
+        elif num == 9 and in_ignore_section:
+            in_ignore_section = False
+        elif not in_ignore_section:
+            total_sum += num
+            
+    return total_sum
+'''
