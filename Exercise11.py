@@ -38,3 +38,14 @@ def summer_69(arr):
             
     return total_sum
 '''
+'''
+def print_big(letter):
+    if letter == "a":
+        print("    *  ")
+        print("   *  * ")
+        print("  ******")
+        print(" *      *")
+        print("*        *")
+    else:
+        print("idk")
+'''
