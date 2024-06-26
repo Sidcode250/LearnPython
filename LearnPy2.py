@@ -100,3 +100,13 @@ def myfunc(*args):
 
 myfunc(2,3,4,5,6)
 '''
+
+def square(a):
+    return a**2
+
+mylist = [1,2,3,4,5]
+
+for item in map(square, mylist):
+    print(item)
+
+print(list(map(square,mylist)))
