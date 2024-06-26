@@ -100,7 +100,7 @@ def myfunc(*args):
 
 myfunc(2,3,4,5,6)
 '''
-
+'''
 def square(a):
     return a**2
 
@@ -110,3 +110,13 @@ for item in map(square, mylist):
     print(item)
 
 print(list(map(square,mylist)))
+'''
+def splicer(mystring):
+    if len(mystring)%2 == 0:
+        print("Even")
+    else:
+        print(mystring[0])
+
+names = ['sid','kash']
+
+print(list(map(splicer,names)))
