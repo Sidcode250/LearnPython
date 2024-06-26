@@ -122,7 +122,13 @@ names = ["Sid", "Kashu"]
 
 print(list(map(splicer,names)))
 '''
-
+'''
 myas = [2,4,6,8,9]
 print(list(map(lambda a : a**2,myas)))
 print(list(filter(lambda b : b%2 == 0,myas)))
+'''
+x = 10
+def mys():
+    x = 20
+    print(x)
+mys()
