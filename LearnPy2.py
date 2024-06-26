@@ -111,12 +111,18 @@ for item in map(square, mylist):
 
 print(list(map(square,mylist)))
 '''
+'''
 def splicer(mystring):
     if len(mystring)%2 == 0:
-        print("Even")
+        return "Even"
     else:
-        print(mystring[0])
+        return mystring[0]
 
-names = ['sid','kash']
+names = ["Sid", "Kashu"]
 
 print(list(map(splicer,names)))
+'''
+
+myas = [2,4,6,8,9]
+print(list(map(lambda a : a**2,myas)))
+print(list(filter(lambda b : b%2 == 0,myas)))
