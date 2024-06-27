@@ -141,3 +141,17 @@ def multiply(numbers):
         num = num*i
     return num
 '''
+import string
+
+def ispangram(str1, alphabet=string.ascii_lowercase):
+    str1 = str1.replace(" ","")
+    mylist = []
+    str1 = str1.lower()
+    for i in str1:
+        if i not in mylist:
+            mylist.append(i)
+        else:
+            pass
+    mylist.sort()
+    return mylist == list(alphabet)
+ispangram("The quick brown fox jumps over the lazy dog")
