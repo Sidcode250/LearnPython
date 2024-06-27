@@ -127,8 +127,17 @@ myas = [2,4,6,8,9]
 print(list(map(lambda a : a**2,myas)))
 print(list(filter(lambda b : b%2 == 0,myas)))
 '''
+'''
 x = 10
 def mys():
     x = 20
     print(x)
 mys()
+'''
+'''
+def multiply(numbers): 
+    num = 1 
+    for i in numbers:
+        num = num*i
+    return num
+'''
