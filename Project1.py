@@ -15,7 +15,7 @@ def position_choice():
     return int(choice)
 
 def replacement_choice(game_list,position):
-    user_placement = input("entee a string to to enter")
+    user_placement = input("enter a string to to enter")
     game_list[position] = user_placement
     return game_list
 
