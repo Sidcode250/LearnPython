@@ -11,16 +11,3 @@ def player():
         choice2 = 'Y'
     else:
         choice2 = 'X'
-    
-def display_board():
-    mylist1 = ['','|','','|','']
-    mylist2 = ['--------------']
-    mylist3 = ['','|','','|','']
-    mylist4 = ['--------------']
-    mylist5 = ['','|','','|','']
-    print(mylist1)
-    print(mylist2)
-    print(mylist3)
-    print(mylist4)
-    print(mylist5)
-display_board()
