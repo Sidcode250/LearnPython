@@ -16,4 +16,23 @@ def printGameBoard():
             print("", gameBoard[x][y], end = " |")
     print("\n+---+---+---+")
 
-printGameBoard()
+def modifyarray(num,turn):
+    num -= 1
+    if (num == 0):
+        gameBoard[0][0] = turn
+    elif (num == 1):
+        gameBoard[0][1] = turn
+    elif (num == 2):
+        gameBoard[0][2] = turn
+    elif (num == 3):
+        gameBoard[1][0] = turn
+    elif (num == 4):
+        gameBoard[1][1] = turn
+    elif (num == 5):
+        gameBoard[1][2] = turn
+    elif (num == 6):
+        gameBoard[2][0] = turn
+    elif (num == 7):
+        gameBoard[2][1] = turn
+    elif (num == 8):
+        gameBoard[2][2] = turn
