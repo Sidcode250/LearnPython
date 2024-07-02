@@ -72,3 +72,4 @@ for tup1 in tup:
     else:
         pass
 print(emptytup)
+
