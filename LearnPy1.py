@@ -64,4 +64,10 @@ print(mylist2)
 mylist = [x*y for x in [1,2,3] for y in [1,10,100]]
 print(mylist)
 '''
-
+'''
+list = [1,2,3]
+print(list)
+a = (4,5,6)
+a = list(a)
+print(a)
+'''
