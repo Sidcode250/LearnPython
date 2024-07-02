@@ -1,13 +1,12 @@
-def player_choice():
-    choice1 = ''
-    while  choice1 not in ['X',"O"]:
-        choice1 = input("You wanna be 'X' or 'O'")
-        if choice1 not in ['X','O']:
-            print("please choose X or O")
-    return choice1
+def player_input():
+    marker = input("Enter X or O:").upper()
+    while marker not in ['X','O']:
+        marker = input("Enter X or O").upper()
 
-def player():
-    if choice1 == 'X':
-        choice2 = 'Y'
+    if marker == 'X':
+
+        return ('X','O')
     else:
-        choice2 = 'X'
+        return ('O','X')
+player1_marker , player2_marker = player_input()
+print(player1_marker,player2_marker)
