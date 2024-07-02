@@ -30,6 +30,7 @@ def func(list1,b):
         else:
             odd = odd.append(int)
 '''
+'''
 l1 = [1,2,-3,4,-5,6]
 positive = []
 negative = []
@@ -41,3 +42,33 @@ for a in l1:
     else:
         negative.append(a)
 print(positive,negative) 
+'''
+#a = (1,2,3,3)
+#print(len(a))
+'''
+a = int(input("input a number"))
+if a >= 0:
+    print("positive")
+else:
+    print("negative")
+'''
+'''
+first_name = ('a','b','c')
+last_name = ('d','e','f')
+age = (20,30,40)
+res = zip(first_name,last_name,age)
+res = tuple(res)
+#print(res)
+
+res2 = tuple(first_name + last_name + age) 
+print(res2)
+'''
+# find tuples with positive elemnts in list of tupples
+tup = [(1,2,3), (4,5,6), (-7,8,9)]
+emptytup = []
+for tup1 in tup:
+    if all(i>0 for i in tup1):
+        emptytup.append(tup1)
+    else:
+        pass
+print(emptytup)
