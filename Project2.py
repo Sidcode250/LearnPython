@@ -4,7 +4,6 @@ def player_input():
         marker = input("Enter X or O").upper()
 
     if marker == 'X':
-
         return ('X','O')
     else:
         return ('O','X')
