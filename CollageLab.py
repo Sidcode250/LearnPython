@@ -14,7 +14,7 @@ def sort_books_by_cost(books):
         for j in range(i + 1, len(sorted_books)):
             if sorted_books[i][2] > sorted_books[j][2]:
                 sorted_books[i], sorted_books[j] = sorted_books[j], sorted_books[i]
-    printsorted_books)
+    print(sorted_books)
     return sorted_books
 
 # Function to count books with cost more than 500
